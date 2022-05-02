@@ -1,6 +1,4 @@
-TestingAndStam/
-__pycache__/
-__init__.py
-OOP_RM.py
-testRM.py
+.venv/
 .idea/
+.pyc
+__pycache__/

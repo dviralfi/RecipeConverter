@@ -1,0 +1,201 @@
+body{
+    font-family: 'Roboto', sans-serif;   
+    background: linear-gradient(60deg, #fef3ff,#fcc7ff67) fixed;
+    padding-top: 60px;
+}
+
+
+h1{
+    font-family: 'Zen Kaku Gothic Antique', sans-serif;
+    font-style: italic;
+    font-size:80px;
+    text-align:center;
+    color: rgb(50, 10, 48);
+
+    }
+
+h1:hover{
+    transition-timing-function: ease-in-out;
+    color: rgb(91, 10, 85);
+}
+
+h2,h3{
+    font-size:35px;
+    color: black;
+    text-align: center;
+    left:0;
+    right: 0;
+
+}
+
+h4, h5, h6{
+    font-size:20px;
+    margin-left: 25px;
+    color: black;
+
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+}
+
+p{
+    font-size: 20px;
+    margin-left: 30px;
+    color: black;
+    font-family: 'Zen Kaku Gothic Antique', sans-serif;
+
+}
+
+
+.clear {
+    clear: both; 
+    /*
+    clear = clears the area of an element space, in the case both - right and left.
+    */
+    height: 60px; 
+    }
+
+
+footer{
+
+    position: fixed;
+    width: 100%;
+    margin: 0 auto;  
+    left: 0;
+    bottom: 0;
+
+    padding: 2px;
+
+    
+    background-color: rgba(255, 207, 253, 0.295);
+    color: rgb(0, 0, 0);
+    text-align: center;
+    max-width: 100%;
+
+    transition: 0.8s;
+}
+
+
+footer:hover{
+    max-width: 100%;
+}
+
+nav ul {
+    
+    z-index: 9;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    list-style-type: none;
+
+    background-color:  #efb9fb7d;
+    
+    padding: 10px 10px 10px 30px;
+    width: 100%;
+    margin: 0px;
+}
+
+nav li {
+
+    float: left;
+    
+}
+
+nav li a {
+    display: block;
+    color: rgba(105, 25, 101, 0.874);
+
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+nav li a:hover{
+    color: rgb(76, 12, 73);
+
+    font-weight: 800;
+
+  }
+
+
+nav ul:hover{
+    
+    color: rgb(0, 0, 0);
+
+}
+
+
+form{
+   
+    display: -ms-inline-flexbox;
+    padding: 10px;
+    text-align: center;
+    top: 30px;
+    border: 15px solid #ffffff;
+    border-style:outset;
+    color: rgb(255, 0, 179);
+    position: relative;
+    width: fit-content;
+    margin: auto;
+}
+
+label{
+
+    margin: auto;
+}
+
+input{
+    margin: auto;
+    
+}
+
+
+hr{
+    color: rgb(0, 0, 0);
+}
+
+.logo-images{
+    width: 30px;
+    height: 30px;
+    margin-top:5px;
+    transition: width 0.5s, height 0.5s;
+
+}
+
+.logo-images:hover{
+    width: 50px;
+    height: 50px;
+
+}
+
+
+
+#description-header{
+    font-family: 'Zen Kaku Gothic Antique', sans-serif;
+    font-weight: 600;
+    font-size:35px;
+    text-align:center;
+    color: rgba(15, 64, 97, 0.767);
+    
+}
+
+
+
+img {
+    opacity: 0.8;
+  }
+  
+img:hover {
+    opacity: 1.0;
+  }
+
+
+.django-form>form{
+    text-align: left;
+    font-weight: bold;
+}
+
