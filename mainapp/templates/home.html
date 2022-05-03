@@ -3,31 +3,45 @@
 
 
 {% block extra_css %}
-        
-
-    
 {% endblock %}
-
-
-
 
 
 {% block content %} 
 
      <!--The Main Header -->
-    
-        
             <a href="{% url 'home' %}">
                <h1>Recipe Converter</h1>
             </a>
-           
+    <div id="description-header">
+        <p> 'Number' - times you want to multiply your recipe (2 for twice, 0.3 for third) 
 
 
-    <div class="home-description">
+        <br>'File' - The recipe file (image or pdf) </p>
 
-            <p>    
-            </p>
     </div>
+
+
+    <div class="django-form"> 
+
+        <form method="POST" action="/" name="number" enctype="multipart/form-data">
+            {% csrf_token %}
+            {{ form.as_p }}
+
+            <div class="">
+                <input type="submit" value = "Make a new recipe !">
+            </div>
+        </form>
+
+    </div>
+
+
+    {% if new_file_path %}
+          <div class="download-button" >
+               <a href= {{new_file_path}} download> Download </a> 
+          </div>
+    {% endif %}
+
+    
 
 {% endblock %}
 
