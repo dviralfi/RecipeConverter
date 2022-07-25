@@ -1,2 +1,2 @@
 # RecipeConverter
-Recipe Converter website for bakers and foodies.
+Automatic Recipe Converter website for bakers and foodies.
